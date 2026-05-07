@@ -5,5 +5,5 @@ deployment:
     - /bin/cp -R index.html $DEPLOYPATH
     - /bin/cp -R styles.css $DEPLOYPATH
     - /bin/cp -R script.js $DEPLOYPATH
-    - /bin/cp -R favicon.svg $DEPLOYPATH
+    - /bin/cp -R favicon.svg $DEPLOYPATH 2>/dev/null || true
     - /bin/cp -R images $DEPLOYPATH
