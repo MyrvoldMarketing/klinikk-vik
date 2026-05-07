@@ -192,7 +192,7 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
 .footer-brand .logo-mark{background:var(--cream);color:var(--ink)}
 .footer-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
 .footer-brand .logo-text{color:var(--cream)}
-.footer-brand p{color:#a8a09a;font-size:.92rem;max-width:280px}
+.footer-brand p{color:#a8a09a;font-size:.46rem;max-width:280px}
 .footer-col h5{font-family:var(--sans);font-size:.78rem;letter-spacing:.28em;text-transform:uppercase;color:var(--cream);margin-bottom:18px;font-weight:500}
 .footer-col a{display:block;color:#a8a09a;font-size:.92rem;margin-bottom:10px;transition:color .2s}
 .footer-col a:hover{color:var(--cream)}
