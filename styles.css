@@ -84,7 +84,7 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
   radial-gradient(900px 500px at 10% 90%,rgba(184,148,114,.18),transparent 60%),
   linear-gradient(180deg,var(--bg) 0%,var(--cream) 100%);z-index:-1}
 .hero-inner{display:grid;grid-template-columns:1.1fr 1fr;gap:80px;align-items:center}
-.hero-text h1{margin:8px 0 24px;font-size:2em}
+.hero-text h1{margin:8px 0 24px;font-size:3em}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px}
 .hero-meta{display:flex;gap:30px;margin-top:50px;flex-wrap:wrap;color:var(--ink-soft);font-size:.92rem}
 .hero-meta div{display:flex;align-items:center;gap:10px}
