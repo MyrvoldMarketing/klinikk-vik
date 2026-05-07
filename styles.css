@@ -59,6 +59,8 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
 .nav.scrolled{border-color:var(--line);background:rgba(247,241,234,.95)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:78px}
 .logo{display:flex;align-items:center;gap:12px}
+.logo-img{height:48px;width:auto;display:block}
+.footer-logo{height:54px;filter:invert(1) brightness(1.2)}
 .logo-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--ink);color:var(--cream);font-family:var(--serif);font-weight:600;font-size:1rem;letter-spacing:.05em}
 .logo-text{font-family:var(--serif);font-size:1.35rem;font-weight:500;letter-spacing:.04em}
 .nav-links{display:flex;align-items:center;gap:34px}
