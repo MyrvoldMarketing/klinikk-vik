@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Klinikk Vik – Skjønnhetspleie i Oslo</title>
+  <meta name="description" content="Klinikk Vik i Oslo tilbyr personlig tilpassede kosmetiske behandlinger med moderne teknikker og dyptgående ekspertise. Drevet av Tonje Vik. Book time i dag." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#hero" class="logo">
+        <span class="logo-mark">KV</span>
+        <span class="logo-text">Klinikk&nbsp;Vik</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#behandlinger">Behandlinger</a>
+        <a href="#priser">Priser</a>
+        <a href="#om">Om oss</a>
+        <a href="#omtaler">Omtaler</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="https://timma.no/salong/klinikk-vik-as" target="_blank" rel="noopener" class="btn btn-primary nav-btn">Book time</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Åpne meny">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Kosmetisk klinikk · Majorstuen</p>
+        <h1>Skjønnhetspleie hvor <em>kvalitet</em> møter <em>omtanke</em>.</h1>
+        <p class="lead">
+          Hos Klinikk Vik AS forsterker vi din naturlige skjønnhet gjennom personlig
+          tilpassede behandlinger, moderne teknikker og dyptgående ekspertise.
+        </p>
+        <div class="hero-cta">
+          <a href="https://timma.no/salong/klinikk-vik-as" target="_blank" rel="noopener" class="btn btn-primary">Book time</a>
+          <a href="#behandlinger" class="btn btn-ghost">Se behandlinger</a>
+        </div>
+        <div class="hero-meta">
+          <div><i class="fas fa-star"></i><span><strong>5,0</strong> · 13 omtaler</span></div>
+          <div><i class="fas fa-location-dot"></i><span>Neuberggata 16, Oslo</span></div>
+        </div>
+      </div>
+      <div class="hero-image" aria-hidden="true">
+        <div class="hero-image-frame"></div>
+      </div>
+    </div>
+    <a href="#behandlinger" class="scroll-down" aria-label="Bla ned">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- USP STRIP -->
+  <section class="usp">
+    <div class="container usp-grid">
+      <div class="usp-item"><i class="fa-regular fa-gem"></i><h4>Skreddersydd</h4><p>Hver behandling tilpasses dine behov og ønsker.</p></div>
+      <div class="usp-item"><i class="fa-regular fa-heart"></i><h4>Trygg omsorg</h4><p>Profesjonell, varm og diskret oppfølging.</p></div>
+      <div class="usp-item"><i class="fa-solid fa-leaf"></i><h4>Naturlige resultater</h4><p>Vi forsterker – ikke forandrer – ditt uttrykk.</p></div>
+      <div class="usp-item"><i class="fa-regular fa-star"></i><h4>5,0 vurdering</h4><p>Anbefalt av kunder gjennom flere år.</p></div>
+    </div>
+  </section>
+
+  <!-- BEHANDLINGER -->
+  <section id="behandlinger" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Våre behandlinger</p>
+        <h2>Utforsk våre <em>behandlinger</em></h2>
+        <p class="section-sub">
+          Behandlingene våre er nøye utformet for å gi deg en helhetlig
+          skjønnhetsopplevelse og forbedre din følelse av velvære.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-kiss-wink-heart"></i></div>
+          <h3>Leppefiller</h3>
+          <p>Naturlig fylde og definerte konturer med Revolax. Tilpasset dine ønsker.</p>
+          <a href="#priser" data-tab="lepper" class="card-link">Se priser <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-spa"></i></div>
+          <h3>Kjemisk peeling</h3>
+          <p>Biorepeel-behandling for friskere, jevnere og mer strålende hud.</p>
+          <a href="#priser" data-tab="hud" class="card-link">Se priser <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-face-smile"></i></div>
+          <h3>Ansiktsbehandling</h3>
+          <p>Deluxe og tilpassede behandlinger – perfekt før fest eller spesielle anledninger.</p>
+          <a href="#priser" data-tab="hud" class="card-link">Se priser <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-syringe"></i></div>
+          <h3>Rynkebehandling</h3>
+          <p>Diskré reduksjon av fine linjer og rynker i ett, to eller tre områder.</p>
+          <a href="#priser" data-tab="rynker" class="card-link">Se priser <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>Filler – ansikt</h3>
+          <p>Definerer kjevelinje og myker opp nasolabiale linjer for harmonisk uttrykk.</p>
+          <a href="#priser" data-tab="filler" class="card-link">Se priser <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-droplet"></i></div>
+          <h3>Fjerning av filler</h3>
+          <p>Trygg oppløsning av eksisterende filler – per område.</p>
+          <a href="#priser" data-tab="fjerning" class="card-link">Se priser <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-tooth"></i></div>
+          <h3>Masseter / tanngnissing</h3>
+          <p>Lindrer plager og slankere kjevelinje gjennom presis injeksjon.</p>
+          <a href="#priser" data-tab="injeksjon" class="card-link">Se priser <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="card">
+          <div class="card-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+          <h3>Svettebehandling</h3>
+          <p>Behandling av overdreven svette i armhuler – diskret og effektivt.</p>
+          <a href="#priser" data-tab="injeksjon" class="card-link">Se priser <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- OM OSS -->
+  <section id="om" class="section section-alt">
+    <div class="container two-col">
+      <div class="two-col-image">
+        <div class="portrait"></div>
+        <div class="portrait-badge">
+          <i class="fa-solid fa-star"></i>
+          <div>
+            <strong>5,0 / 5</strong>
+            <span>13 omtaler</span>
+          </div>
+        </div>
+      </div>
+      <div class="two-col-text">
+        <p class="eyebrow">Om Klinikk Vik</p>
+        <h2>Møt <em>Tonje Vik</em></h2>
+        <p>
+          Klinikk Vik drives av Tonje Vik – en erfaren behandler med lidenskap for
+          estetikk, hud og det lille ekstra som gjør forskjellen. På klinikken
+          møter du varm omsorg, profesjonell kompetanse og en rolig atmosfære
+          der du blir sett, hørt og ivaretatt.
+        </p>
+        <p>
+          Vi tilbyr et nøye utvalgt spekter av behandlinger – fra leppefiller og
+          rynkebehandling til kjemisk peeling og injeksjonsbehandlinger. Målet
+          vårt er alltid det samme: å forsterke din naturlige skjønnhet på en
+          trygg og diskré måte.
+        </p>
+        <ul class="checklist">
+          <li><i class="fa-solid fa-check"></i> Personlig konsultasjon før hver behandling</li>
+          <li><i class="fa-solid fa-check"></i> Moderne teknikker og kvalitetsprodukter</li>
+          <li><i class="fa-solid fa-check"></i> Diskret, profesjonell og varm oppfølging</li>
+        </ul>
+        <a href="#kontakt" class="btn btn-primary">Ta kontakt</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRISER -->
+  <section id="priser" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Priser</p>
+        <h2>Behandlinger og <em>priser</em></h2>
+        <p class="section-sub">Transparente priser. Andre tider kan avtales ved forespørsel.</p>
+      </div>
+
+      <div class="price-tabs" role="tablist">
+        <button class="price-tab active" data-tab="lepper" role="tab">Leppefiller</button>
+        <button class="price-tab" data-tab="hud" role="tab">Hudbehandlinger</button>
+        <button class="price-tab" data-tab="rynker" role="tab">Rynkebehandling</button>
+        <button class="price-tab" data-tab="filler" role="tab">Filler ansikt</button>
+        <button class="price-tab" data-tab="fjerning" role="tab">Fjerning av filler</button>
+        <button class="price-tab" data-tab="injeksjon" role="tab">Injeksjon</button>
+      </div>
+
+      <div class="price-panels">
+        <div class="price-panel active" data-panel="lepper">
+          <div class="price-row"><div><h4>Leppefiller – 0,5 ml</h4><p>Revolax 0,5 ml</p></div><span class="price">2 200 kr</span></div>
+          <div class="price-row"><div><h4>Leppefiller – 0,7 ml</h4><p>Revolax 0,7 ml</p></div><span class="price">2 500 kr</span></div>
+          <div class="price-row"><div><h4>Leppefiller – 1 ml</h4><p>Revolax 1 ml</p></div><span class="price">2 800 kr</span></div>
+        </div>
+
+        <div class="price-panel" data-panel="hud">
+          <div class="price-row"><div><h4>Kjemisk peeling (middels sterk)</h4><p>Biorepeel: rens, prepeeling, syrebehandling, ansiktsmassasje, maske, serum og fuktighetskrem.</p></div><span class="price">1 500 kr</span></div>
+          <div class="price-row"><div><h4>Kjemisk peeling – pakkepris × 3</h4><p>Rabatt 700 kr + gratis ansiktsmaske til hjemmebruk × 3.</p></div><span class="price">3 800 kr</span></div>
+          <div class="price-row"><div><h4>Deluxe ansiktsbehandling</h4><p>Askepott-behandling for ekstra glød. Perfekt før fest eller bryllup.</p></div><span class="price">1 200 kr</span></div>
+          <div class="price-row"><div><h4>Ansiktsbehandling</h4><p>Peeling og Hydrojelly-maske. Passer godt til sensitiv hud.</p></div><span class="price">1 200 kr</span></div>
+          <div class="price-row"><div><h4>Kjemisk peeling – ekstra glow</h4><p>Overfladisk syrepeeling med massasje, maske og pleie.</p></div><span class="price">1 200 kr</span></div>
+        </div>
+
+        <div class="price-panel" data-panel="rynker">
+          <div class="price-row"><div><h4>Rynkebehandling – 1 område</h4></div><span class="price">1 900 kr</span></div>
+          <div class="price-row"><div><h4>Rynkebehandling – 2 områder</h4></div><span class="price">2 800 kr</span></div>
+          <div class="price-row"><div><h4>Rynkebehandling – 3 områder</h4></div><span class="price">3 500 kr</span></div>
+        </div>
+
+        <div class="price-panel" data-panel="filler">
+          <div class="price-row"><div><h4>Fillers – ansikt, kjevelinje</h4></div><span class="price">2 200 kr</span></div>
+          <div class="price-row"><div><h4>Fillers – ansikt, nasolabiale linjer</h4></div><span class="price">2 200 kr</span></div>
+        </div>
+
+        <div class="price-panel" data-panel="fjerning">
+          <div class="price-row"><div><h4>Fjerning av fillers</h4><p>Pris gjelder per område.</p></div><span class="price">1 800 kr</span></div>
+        </div>
+
+        <div class="price-panel" data-panel="injeksjon">
+          <div class="price-row"><div><h4>Masseter – tanngnissing</h4><p>Behandling av tanngnissing.</p></div><span class="price">3 500 kr</span></div>
+          <div class="price-row"><div><h4>Svettebehandling</h4><p>Axille – behandling av overdreven svette i armhuler.</p></div><span class="price">3 800 kr</span></div>
+        </div>
+      </div>
+
+      <p class="legal-note">
+        I henhold til Forskrift om markedsføring av kosmetiske inngrep er det
+        forbudt å markedsføre finansieringsløsninger i forbindelse med
+        kosmetiske behandlinger. For betalingsmuligheter, ta kontakt med oss.
+      </p>
+    </div>
+  </section>
+
+  <!-- OMTALER -->
+  <section id="omtaler" class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Kundeomtaler</p>
+        <h2>Det <em>kundene</em> sier</h2>
+        <div class="rating-row">
+          <div class="stars" aria-label="5 av 5 stjerner">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <span><strong>5,0</strong> · basert på 13 omtaler</span>
+        </div>
+      </div>
+
+      <div class="reviews">
+        <figure class="review">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <blockquote>Har vært hos Tonje flere ganger og er alltid like fornøyd. Hun gir meg en skikkelig spa-opplevelse hver gang.</blockquote>
+          <figcaption><strong>Cathrine R.</strong><span>Rynkebehandling – 2 områder</span></figcaption>
+        </figure>
+        <figure class="review">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <blockquote>Profesjonelt og serviceinnstilt. Jeg fikk god hjelp med mine plager. Anbefales.</blockquote>
+          <figcaption><strong>Ayumi K.</strong><span>Injeksjon – masseter</span></figcaption>
+        </figure>
+        <figure class="review">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <blockquote>Super hyggelig og ble godt tatt imot. Kommer definitivt tilbake!</blockquote>
+          <figcaption><strong>Lea A.</strong><span>Injeksjon – masseter</span></figcaption>
+        </figure>
+        <figure class="review">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <blockquote>Väldigt bra! Resultatet ble akkurat slik jeg ønsket meg.</blockquote>
+          <figcaption><strong>Jennie B.</strong><span>Kjemisk peeling – ekstra glow</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt" class="section">
+    <div class="container two-col">
+      <div class="two-col-text">
+        <p class="eyebrow">Kontakt</p>
+        <h2>Velkommen til <em>Klinikk Vik</em></h2>
+        <p>
+          Du finner oss sentralt på Majorstuen i Oslo. Ta gjerne kontakt for å booke time
+          eller for en uforpliktende prat om hva som passer best for deg.
+        </p>
+
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-location-dot"></i>
+            <div><strong>Adresse</strong><a href="https://www.google.com/maps/place/Klinikk+Vik/@59.9262204,10.7100415,359m/data=!3m1!1e3!4m6!3m5!1s0x46416f4d4b2c2517:0xab29cdd29ad7fc17!8m2!3d59.9262178!4d10.7146496!16s%2Fg%2F11vr5rqcq3" target="_blank" rel="noopener">Neuberggata 16, 0367 Oslo</a></div>
+          </li>
+          <li><i class="fa-brands fa-instagram"></i>
+            <div><strong>Instagram</strong><a href="https://www.instagram.com/klinikkvik/" target="_blank" rel="noopener">@klinikkvik</a></div>
+          </li>
+          <li><i class="fa-regular fa-clock"></i>
+            <div><strong>Åpningstider</strong><span>Etter avtale – andre tider kan avtales ved forespørsel.</span></div>
+          </li>
+        </ul>
+
+        <div class="contact-cta">
+          <a href="https://timma.no/salong/klinikk-vik-as" target="_blank" rel="noopener" class="btn btn-primary"><i class="fa-regular fa-calendar-check"></i>&nbsp; Book time</a>
+          <a href="https://www.google.com/maps/place/Klinikk+Vik/@59.9262204,10.7100415,359m/data=!3m1!1e3!4m6!3m5!1s0x46416f4d4b2c2517:0xab29cdd29ad7fc17!8m2!3d59.9262178!4d10.7146496!16s%2Fg%2F11vr5rqcq3" target="_blank" rel="noopener" class="btn btn-ghost"><i class="fa-solid fa-map-location-dot"></i>&nbsp; Veibeskrivelse</a>
+        </div>
+      </div>
+
+      <div class="two-col-image map-wrap">
+        <iframe
+          title="Kart til Klinikk Vik"
+          src="https://www.google.com/maps?q=Klinikk+Vik,Neuberggata+16,Oslo&z=16&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">KV</span>
+        <span class="logo-text">Klinikk Vik</span>
+        <p>Skjønnhetspleie hvor kvalitet møter omtanke.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Klinikk</h5>
+        <a href="#behandlinger">Behandlinger</a>
+        <a href="#priser">Priser</a>
+        <a href="#om">Om oss</a>
+        <a href="#omtaler">Omtaler</a>
+      </div>
+      <div class="footer-col">
+        <h5>Kontakt</h5>
+        <a href="https://www.google.com/maps/place/Klinikk+Vik/@59.9262204,10.7100415,359m/data=!3m1!1e3!4m6!3m5!1s0x46416f4d4b2c2517:0xab29cdd29ad7fc17!8m2!3d59.9262178!4d10.7146496!16s%2Fg%2F11vr5rqcq3" target="_blank" rel="noopener">Neuberggata 16, Oslo</a>
+        <a href="https://www.instagram.com/klinikkvik/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div class="footer-col">
+        <h5>Følg oss</h5>
+        <div class="socials">
+          <a href="https://www.instagram.com/klinikkvik/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>© <span id="year"></span> Klinikk Vik. Alle rettigheter forbeholdt.</span>
+      <span>Nettside av <a href="https://myrvold.marketing" target="_blank" rel="noopener">Myrvold Marketing</a></span>
+    </div>
+  </footer>
+
+  <!-- Sticky side icons -->
+  <aside class="side-actions" aria-label="Hurtigvalg">
+    <a href="https://www.google.com/maps/place/Klinikk+Vik/@59.9262204,10.7100415,359m/data=!3m1!1e3!4m6!3m5!1s0x46416f4d4b2c2517:0xab29cdd29ad7fc17!8m2!3d59.9262178!4d10.7146496!16s%2Fg%2F11vr5rqcq3" target="_blank" rel="noopener" aria-label="Veibeskrivelse">
+      <i class="fa-solid fa-location-dot"></i>
+      <span class="side-tip">Veibeskrivelse</span>
+    </a>
+    <a href="https://www.instagram.com/klinikkvik/" target="_blank" rel="noopener" aria-label="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+      <span class="side-tip">Instagram</span>
+    </a>
+    <a href="https://timma.no/salong/klinikk-vik-as" target="_blank" rel="noopener" aria-label="Book time">
+      <i class="fa-regular fa-calendar-check"></i>
+      <span class="side-tip">Book time</span>
+    </a>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
