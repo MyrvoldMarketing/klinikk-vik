@@ -84,7 +84,7 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
   radial-gradient(900px 500px at 10% 90%,rgba(184,148,114,.18),transparent 60%),
   linear-gradient(180deg,var(--bg) 0%,var(--cream) 100%);z-index:-1}
 .hero-inner{display:grid;grid-template-columns:1.1fr 1fr;gap:80px;align-items:center}
-.hero-text h1{margin:8px 0 24px}
+.hero-text h1{margin:8px 0 24px;font-size:clamp(1.25rem,2.75vw,2.3rem)}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px}
 .hero-meta{display:flex;gap:30px;margin-top:50px;flex-wrap:wrap;color:var(--ink-soft);font-size:.92rem}
 .hero-meta div{display:flex;align-items:center;gap:10px}
@@ -192,7 +192,7 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
 .footer-brand .logo-mark{background:var(--cream);color:var(--ink)}
 .footer-brand{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
 .footer-brand .logo-text{color:var(--cream)}
-.footer-brand p{color:#a8a09a;font-size:.46rem;max-width:280px}
+.footer-brand p{color:#a8a09a;font-size:.92rem;max-width:280px}
 .footer-col h5{font-family:var(--sans);font-size:.78rem;letter-spacing:.28em;text-transform:uppercase;color:var(--cream);margin-bottom:18px;font-weight:500}
 .footer-col a{display:block;color:#a8a09a;font-size:.92rem;margin-bottom:10px;transition:color .2s}
 .footer-col a:hover{color:var(--cream)}
@@ -303,4 +303,5 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
   .footer-inner{grid-template-columns:1fr;gap:30px}
   .portrait-badge{left:0}
   h1{font-size:2.4rem}
+  .hero-text h1{font-size:1.2rem}
 }
