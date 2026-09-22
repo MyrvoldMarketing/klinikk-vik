@@ -33,7 +33,7 @@ tabs.forEach(tab => {
 });
 
 // Card "Se priser" links -> activate correct tab and scroll to priser
-document.querySelectorAll('.card-link[data-tab]').forEach(link => {
+document.querySelectorAll('a[data-tab]').forEach(link => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
     activateTab(link.dataset.tab);
