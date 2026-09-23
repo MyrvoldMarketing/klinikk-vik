@@ -358,7 +358,7 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
 .price-cta{display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex-shrink:0}
 .price-book{display:inline-flex;align-items:center;gap:7px;font-size:.82rem;font-weight:500;letter-spacing:.04em;color:var(--accent);white-space:nowrap;transition:gap .25s,color .2s}
 .price-book:hover{gap:12px;color:var(--accent-dark)}
-.offer-window{display:block;margin-top:10px;font-size:.82rem;letter-spacing:.04em;color:rgba(251,246,240,.62)}
+.offer-window{display:block;margin:0 0 26px;font-size:.82rem;letter-spacing:.04em;color:rgba(251,246,240,.62)}
 @media (max-width:640px){
   .price-row{gap:16px}
   .price-cta{align-items:flex-end}
