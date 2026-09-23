@@ -298,7 +298,6 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
   .nav-toggle{display:flex}
   .nav-btn{align-self:flex-start;margin-top:10px}
   .cards{grid-template-columns:1fr}
-  .card-wide{grid-column:span 1}
   .price-row{flex-direction:column;gap:8px}
   .price{font-size:1.25rem}
   .footer-inner{grid-template-columns:1fr;gap:30px}
@@ -340,7 +339,38 @@ h1 em,h2 em,h3 em{font-style:italic;color:var(--accent);font-weight:400}
 .row-badge{display:inline-block;vertical-align:middle;margin-left:10px;background:var(--gold);color:var(--ink);font-family:var(--sans);font-size:.62rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:5px 11px;border-radius:999px}
 
 @media (max-width:900px){
+  .card-wide{grid-column:span 1}
   .offer{padding:60px 0}
   .offer-inner{grid-template-columns:1fr;gap:34px}
   .offer-badge{padding:34px 24px}
+}
+
+/* Kampanjen skrus av automatisk etter 31. oktober */
+.offer-expired #tilbud,
+.offer-expired .nav-offer,
+.offer-expired .card-badge,
+.offer-expired .row-badge,
+.offer-expired .offer-window{display:none}
+.offer-expired .card-featured{border-color:var(--line)}
+.offer-expired .price-row-offer{background:none;padding-left:0;padding-right:0}
+
+/* Book-lenke i prislisten */
+.price-cta{display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex-shrink:0}
+.price-book{display:inline-flex;align-items:center;gap:7px;font-size:.82rem;font-weight:500;letter-spacing:.04em;color:var(--accent);white-space:nowrap;transition:gap .25s,color .2s}
+.price-book:hover{gap:12px;color:var(--accent-dark)}
+.offer-window{display:block;margin-top:10px;font-size:.82rem;letter-spacing:.04em;color:rgba(251,246,240,.62)}
+@media (max-width:640px){
+  .price-row{gap:16px}
+  .price-cta{align-items:flex-end}
+}
+
+/* Den faste snarvei-raden til høyre kan dekke Book-lenken på mellomstore skjermer */
+@media (min-width:901px) and (max-width:1140px){
+  .price-panels{padding-right:64px}
+}
+
+/* Kampanjemerket må tåle å brekke over to linjer på mobil */
+.offer-tag{flex-wrap:wrap;line-height:1.5;max-width:100%;text-align:center;justify-content:center}
+@media (max-width:640px){
+  .offer-tag{letter-spacing:.12em;font-size:.7rem;padding:10px 16px}
 }

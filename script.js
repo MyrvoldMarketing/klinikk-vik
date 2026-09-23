@@ -56,3 +56,10 @@ const io = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.12 });
 revealEls.forEach(el => io.observe(el));
+
+// Microneedling-kampanjen gjelder t.o.m. 31. oktober 2026.
+// Etter det skjules tilbudsbåndet, menypunktet og Kampanje-merkene automatisk.
+const OFFER_ENDS = new Date('2026-11-01T00:00:00+01:00');
+if (new Date() >= OFFER_ENDS) {
+  document.body.classList.add('offer-expired');
+}
